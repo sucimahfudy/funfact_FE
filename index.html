@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="../cb-frontend/css/style.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  <title>Fun Fact Generator</title>
+</head>
+<body>
+  <div class="card1">
+    <h1>Fun Fact Generator!</h1>
+    <p id="todaysDate"></p>
+    <h2>Fun Fact:</h2>
+    <p id="randomFact"></p>
+    <button id="oneMoreBtn">One More!</button>
+  </div>
+  <div class="card2">
+    <h2 class="margin-top">Add A New Fact!</h2>
+    <form id="newFactForm">
+    <textarea required class="textArea" name="fact" placeholder="Enter new fact*" autocomplete="on" ></textarea><br />
+    <input required type="text" name="sourceLink" placeholder="Enter source (as link)*" autocomplete="on" /><br />
+    <input required type="text" name="userName" placeholder="Enter user name*" autocomplete="off"/><br />
+    <button type="submit">Submit</button>
+    </form>
+  </div>
+  <div class="card3">
+    <h2 class="margin-top">View My Facts!</h2>
+    <form id="viewMyFactsForm">
+    <input required type="text" name="userName" placeholder="Enter your user name*" autocomplete="off" /><br />
+    <button type="submit">Submit</button>
+    </form>
+  </div>
+  <div class="card4" id="myFactsList">
+    <h2 class="top-btm-spacing" id="myFactsTitle">My Facts</h2>
+    <table>
+        <thead id="dataTableHead"></thead>
+        <tbody id="dataTable"></tbody>
+        <!-- table filled dynamically -->
+    </table>
+  </div>
+  <div class="card5" id="editFactContainer">
+      <h2 class="margin-top" id="editFactTitle">Edit Fact</h2>
+      <form id="editFactForm">
+      <textarea required class="textArea" id="editTextArea" name="fact" placeholder="Enter new fact*" autocomplete="on" ></textarea><br />
+      <input required id="editSourceLink" type="text" name="sourceLink" placeholder="Enter source (as link)*" autocomplete="on" /><br />
+      <input required id="editUserName" type="text" name="userName" placeholder="Enter user name*" /><br />
+      <button type="submit">Submit</button>
+      </form>
+  </div>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="../cb-frontend/js/index.js"></script>
+</body>
+</html>

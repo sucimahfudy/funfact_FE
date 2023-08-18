@@ -1,0 +1,124 @@
+body {
+    background-color: #AA78A6;
+    width: 100vw;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+p {
+    margin: 0;
+}
+
+th {
+    border: 1px solid #4D4E4F;
+    border-radius: 0.05em;
+}
+
+td {
+    border: 1px solid #4D4E4F; 
+    border-radius: 0.05em;
+}
+
+button {
+    font-size: 1rem;
+    background-color: #E6E6FA;
+    height: 2.5em;
+    color: #4D4E4F;
+    border:1px solid #D3D3D3;
+    border-radius: 0.4em;
+    margin: 2rem 1rem 1rem 1rem;
+
+}
+
+button:focus {
+    outline: 0;
+}
+
+button:hover {
+    background-color: #4D4E4F;
+    color: #E6E6FA;
+    border-color: #4D4E4F;
+}
+
+input {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 0.4em;
+    width: 40%;
+    height: 2rem;
+    padding: 0.25rem 1rem 0.25rem 1rem;
+    min-width: 15rem;
+}
+
+input[type="checkbox"] {
+    padding: 0;
+    margin: 0;
+    width: auto;
+    height: 2rem;
+    min-width: auto;
+}
+
+.margin-top {
+    margin-top: 0;
+    padding-top: 1rem;
+}
+
+.top-btm-spacing {
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+.card1 {
+    padding: 5% 10% 5% 10%;
+    background-color: #AA78A6;
+    height: 100%;
+} 
+
+.card2 {
+    padding: 5% 10% 5% 10%;
+    background-color: #B8BAC8;
+    height: 100%;
+} 
+
+.card3 {
+    padding: 5% 10% 5% 10%;
+    background-color: #B4D6D3;
+    height: 100%;
+} 
+
+.card4 {
+    display: none;
+    padding: 5% 10% 5% 10%;
+    background-color: #B2FFD6;
+    height: 100%;
+    color: #AA78A6;
+} 
+
+.card5 {
+    display: none;
+    padding: 5% 10% 5% 10%;
+    height: 100%;
+} 
+
+.textArea {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 0.4em;
+    width: 40%;
+    height: 10rem;
+    min-width: 15rem;
+    padding: 1rem 1rem 1rem 1rem;
+}
